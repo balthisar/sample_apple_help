@@ -10,8 +10,8 @@
   <script src="javascript.js"></script>
 </head>
 <body>
-  <nav id="nav" class="hidden_thing">
-    <a href="#">I am a link</a>
+  <nav role='navigation' id="nav" class="hidden_thing">
+    <a href="index.html">Link to Home</a>
   </nav>
   <main>
     <h1>Hello, World</h1>
@@ -22,6 +22,12 @@
     <p>
       <a href="#" onclick="toggleNavigation()">Toggle Sidebar</a>
     </p>
+    <p>
+      <a href="#" onclick="testRandom()">call testRandom() now.</a>
+    </p>
+    <div id="enumerated">
+    <h1><a href="#" onclick="enumerate()">Enumerated data:</a></h1>
+    </div>
   </main>
 </body>
 </html>
