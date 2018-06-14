@@ -1,0 +1,4 @@
+body { display: flex;}
+nav { display: block; width: 150px; background: grey;}
+main { display: block; flex 1; }
+nav.hidden_thing { display: none; };
