@@ -3,23 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIdentifier</key>
-	<string>com.balthisar.middlemac.free.help</string>
+	<string>com.balthisar.HelpViewerApp.help</string>
 	<key>CFBundleName</key>
-	<string>Middlemac</string>
+	<string>HelpViewerApp</string>
 	<key>HPDBookAccessPath</key>
 	<string>index.html</string>
 	<key>HPDBookIndexPath</key>
-	<string>Middlemac.helpindex</string>
+	<string></string>
 	<key>HPDBookTitle</key>
-	<string>Middlemac Help</string>
+	<string>HelpViewerApp Help</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en-us</string>
 	<key>CFBundleShortVersionString</key>
-	<string>3.0.0.wip</string>
+	<string>1.0.0</string>
 	<key>CFBundleVersion</key>
-	<string>3.0.0.wip</string>
+	<string>1.0.0</string>
 	<key>HPDBookIconPath</key>
-	<string>SharedGlobalArt/free-icon_32x32@2x.png</string>
+	<string></string>
 	<key>HPDBookKBProduct</key>
 	<string></string>
 	<key>HPDBookKBURL</key>

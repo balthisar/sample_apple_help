@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleHelpBookFolder</key>
-	<string>Middlemac_(free).help</string>
+	<string>HelpViewerApp.help</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -31,7 +31,7 @@
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>CFBundleHelpBookName</key>
-	<string>com.balthisar.middlemac.free.help</string>
+	<string>com.balthisar.HelpViewerApp.help</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 </dict>

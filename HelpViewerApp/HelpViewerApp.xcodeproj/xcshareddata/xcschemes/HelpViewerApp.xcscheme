@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D03D5F841CE5C6BA00C3EF1D"
-               BuildableName = "HelpViewerApp  (free).app"
-               BlueprintName = "HelpViewerApp  (free)"
+               BuildableName = "HelpViewerApp.app"
+               BlueprintName = "HelpViewerApp"
                ReferencedContainer = "container:HelpViewerApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D03D5F841CE5C6BA00C3EF1D"
-            BuildableName = "HelpViewerApp  (free).app"
-            BlueprintName = "HelpViewerApp  (free)"
+            BuildableName = "HelpViewerApp.app"
+            BlueprintName = "HelpViewerApp"
             ReferencedContainer = "container:HelpViewerApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -56,8 +56,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D03D5F841CE5C6BA00C3EF1D"
-            BuildableName = "HelpViewerApp  (free).app"
-            BlueprintName = "HelpViewerApp  (free)"
+            BuildableName = "HelpViewerApp.app"
+            BlueprintName = "HelpViewerApp"
             ReferencedContainer = "container:HelpViewerApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -75,8 +75,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D03D5F841CE5C6BA00C3EF1D"
-            BuildableName = "HelpViewerApp  (free).app"
-            BlueprintName = "HelpViewerApp  (free)"
+            BuildableName = "HelpViewerApp.app"
+            BlueprintName = "HelpViewerApp"
             ReferencedContainer = "container:HelpViewerApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

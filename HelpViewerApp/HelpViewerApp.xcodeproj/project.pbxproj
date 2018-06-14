@@ -9,20 +9,18 @@
 /* Begin PBXBuildFile section */
 		D03D5F861CE5C6BA00C3EF1D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D03D5BCD1CE5AF3200C3EF1D /* main.m */; };
 		D03D5F871CE5C6BA00C3EF1D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D03D5BCA1CE5AF3200C3EF1D /* AppDelegate.m */; };
-		D03D5F8A1CE5C6BA00C3EF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D03D5BCF1CE5AF3200C3EF1D /* Assets.xcassets */; };
 		D03D5F8B1CE5C6BA00C3EF1D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03D5BD11CE5AF3200C3EF1D /* MainMenu.xib */; };
-		D03D5F941CE5D1AC00C3EF1D /* Middlemac_(free).help in Resources */ = {isa = PBXBuildFile; fileRef = D03D5F921CE5D1AC00C3EF1D /* Middlemac_(free).help */; };
+		D03D5F941CE5D1AC00C3EF1D /* HelpViewerApp.help in Resources */ = {isa = PBXBuildFile; fileRef = D03D5F921CE5D1AC00C3EF1D /* HelpViewerApp.help */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D03D5BC91CE5AF3200C3EF1D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D03D5BCA1CE5AF3200C3EF1D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D03D5BCD1CE5AF3200C3EF1D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D03D5BCF1CE5AF3200C3EF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D03D5BD21CE5AF3200C3EF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		D03D5BD41CE5AF3200C3EF1D /* Info-free.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-free.plist"; sourceTree = "<group>"; };
-		D03D5F901CE5C6BA00C3EF1D /* HelpViewerApp  (free).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelpViewerApp  (free).app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D03D5F921CE5D1AC00C3EF1D /* Middlemac_(free).help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Middlemac_(free).help"; path = "../../Middlemac_(free).help"; sourceTree = "<group>"; };
+		D03D5BD41CE5AF3200C3EF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D03D5F901CE5C6BA00C3EF1D /* HelpViewerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelpViewerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D03D5F921CE5D1AC00C3EF1D /* HelpViewerApp.help */ = {isa = PBXFileReference; lastKnownFileType = folder; name = HelpViewerApp.help; path = ../../HelpViewerApp.help; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +45,7 @@
 		D03D5BC71CE5AF3200C3EF1D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D03D5F901CE5C6BA00C3EF1D /* HelpViewerApp  (free).app */,
+				D03D5F901CE5C6BA00C3EF1D /* HelpViewerApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -57,10 +55,9 @@
 			children = (
 				D03D5BC91CE5AF3200C3EF1D /* AppDelegate.h */,
 				D03D5BCA1CE5AF3200C3EF1D /* AppDelegate.m */,
-				D03D5BCF1CE5AF3200C3EF1D /* Assets.xcassets */,
 				D03D5BD11CE5AF3200C3EF1D /* MainMenu.xib */,
-				D03D5BD41CE5AF3200C3EF1D /* Info-free.plist */,
-				D03D5F921CE5D1AC00C3EF1D /* Middlemac_(free).help */,
+				D03D5BD41CE5AF3200C3EF1D /* Info.plist */,
+				D03D5F921CE5D1AC00C3EF1D /* HelpViewerApp.help */,
 				D03D5BCC1CE5AF3200C3EF1D /* Supporting Files */,
 			);
 			path = HelpViewerApp;
@@ -77,9 +74,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D03D5F841CE5C6BA00C3EF1D /* HelpViewerApp  (free) */ = {
+		D03D5F841CE5C6BA00C3EF1D /* HelpViewerApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D03D5F8D1CE5C6BA00C3EF1D /* Build configuration list for PBXNativeTarget "HelpViewerApp  (free)" */;
+			buildConfigurationList = D03D5F8D1CE5C6BA00C3EF1D /* Build configuration list for PBXNativeTarget "HelpViewerApp" */;
 			buildPhases = (
 				D03D5F851CE5C6BA00C3EF1D /* Sources */,
 				D03D5F881CE5C6BA00C3EF1D /* Frameworks */,
@@ -89,9 +86,9 @@
 			);
 			dependencies = (
 			);
-			name = "HelpViewerApp  (free)";
+			name = HelpViewerApp;
 			productName = HelpViewerApp;
-			productReference = D03D5F901CE5C6BA00C3EF1D /* HelpViewerApp  (free).app */;
+			productReference = D03D5F901CE5C6BA00C3EF1D /* HelpViewerApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +113,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D03D5F841CE5C6BA00C3EF1D /* HelpViewerApp  (free) */,
+				D03D5F841CE5C6BA00C3EF1D /* HelpViewerApp */,
 			);
 		};
 /* End PBXProject section */
@@ -126,8 +123,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D03D5F941CE5D1AC00C3EF1D /* Middlemac_(free).help in Resources */,
-				D03D5F8A1CE5C6BA00C3EF1D /* Assets.xcassets in Resources */,
+				D03D5F941CE5D1AC00C3EF1D /* HelpViewerApp.help in Resources */,
 				D03D5F8B1CE5C6BA00C3EF1D /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,7 +244,7 @@
 					"DEBUG=1",
 					TARGET_FREE,
 				);
-				INFOPLIST_FILE = "HelpViewerApp/Info-free.plist";
+				INFOPLIST_FILE = HelpViewerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balthisar.HelpViewerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -261,7 +257,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = TARGET_FREE;
-				INFOPLIST_FILE = "HelpViewerApp/Info-free.plist";
+				INFOPLIST_FILE = HelpViewerApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.balthisar.HelpViewerApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,7 +276,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D03D5F8D1CE5C6BA00C3EF1D /* Build configuration list for PBXNativeTarget "HelpViewerApp  (free)" */ = {
+		D03D5F8D1CE5C6BA00C3EF1D /* Build configuration list for PBXNativeTarget "HelpViewerApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D03D5F8E1CE5C6BA00C3EF1D /* Debug */,
