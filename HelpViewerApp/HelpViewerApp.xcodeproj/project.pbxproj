@@ -97,12 +97,12 @@
 		D03D5BBE1CE5AF3200C3EF1D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Jim Derry";
 			};
 			buildConfigurationList = D03D5BC11CE5AF3200C3EF1D /* Build configuration list for PBXProject "HelpViewerApp" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
